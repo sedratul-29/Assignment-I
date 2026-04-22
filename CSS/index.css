@@ -121,8 +121,8 @@ header nav ul li a {
 
 .Hero-button .primary-btn {
     max-width: 251px;
-    padding: 16.5px 46px 16.5px 16px;
-    font-weight: 600px;
+    padding: 16.5px 0px 16.5px 16px;
+    font-weight: 600;
     line-height: 100%;
     font-size: 16px;
     color: #FFFFFF;
@@ -133,16 +133,29 @@ header nav ul li a {
     margin-right: 16px;
 }
 
+.Hero-button .primary-btn i{
+    height: 20px;
+    width: 20px;
+    margin-right:16px ;
+    margin-left:10px;
+}
+
 .Hero-button .secondary-btn {
     max-width: 198px;
-    padding: 16.5px 16px 16.5px 46px;
-    font-weight: 600px;
+    padding: 16.5px 16px 16.5px 0px;
+    font-weight: 600;
     line-height: 100%;
     font-size: 16px;
-    color: #801717;
-    border: none;
+    background: transparent;
+    color: #FFFFFF;
+    border: 1px solid #FFFFFF;
     border-radius: 4px;
     cursor: pointer;
+}
+
+.Hero-button .secondary-btn i{
+    margin-left: 16px;
+    margin-right: 10px;
 }
 
 .card-info h3 {
@@ -302,7 +315,7 @@ header nav ul li a {
 }
 
 .early-button button {
-    font-weight: 600px;
+    font-weight: 600;
     line-height: 100%;
     font-size: 16px;
     color: #FFFFFF;
@@ -310,10 +323,17 @@ header nav ul li a {
     border: none;
     border-radius: 4px;
     cursor: pointer;
-    padding: 16.5px 46px 16.5px 16px;
+    padding: 16.5px 0px 16.5px 16px;
     box-shadow: 0px 10px 20px 0px #00000026;
     max-width: 194px;
     margin-bottom: 16px;
+}
+
+.early-button button i{
+    height: 20px;
+    width: 20px;
+    margin-right: 16px;
+    margin-left: 10px;
 }
 
 .early-button .b{
@@ -384,3 +404,4 @@ footer{
     line-height: 24px;
     color: #FAFAFA;
 }  
+
