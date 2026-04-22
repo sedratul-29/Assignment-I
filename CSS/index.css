@@ -90,14 +90,13 @@ header nav ul li a {
     padding: 8px 12px 8px 0px;
     border: none;
     border-radius: 1000px;
-    margin-bottom: 16px;
     display: flex;
     margin: 0 auto ;
 } 
 
 .Hero-content h1 {
     max-width: 770px;
-    margin: 0 auto;
+    margin: 16px auto 0px;
     font-weight: 700px;
     font-size: 72px;
     line-height: 84px;
